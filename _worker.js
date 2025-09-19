@@ -1,10 +1,10 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-let serviceName = "";
+let serviceName = "vl-niiddd";
 let APP_DOMAIN = "";
 
-let prxIP = "";
+let prxIP = "https://raw.githubusercontent.com/niiddd/keinjack/refs/heads/main/proxyList.txt";
 let cachedPrxList = [];
 
 // Constant
@@ -17,7 +17,7 @@ const PORTS = [443, 80];
 const PROTOCOLS = [atob(horse), atob(flash), "ss"];
 const SUB_PAGE_URL = "https://foolvpn.me/nautica";
 const KV_PRX_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/kvProxyList.json";
-const PRX_BANK_URL = "https://raw.githubusercontent.com/niiddd/keinjack/refs/heads/main/proxyList.txt";
+const PRX_BANK_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt";
 const DNS_SERVER_ADDRESS = "8.8.8.8";
 const DNS_SERVER_PORT = 53;
 const RELAY_SERVER_UDP = {
